@@ -59,17 +59,9 @@ body {
 }
 
 .authnav {
-   color: var(--section-title-color);
-   font-family: 'Roboto';
+   color: var(--primary-text-color);
    font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.5;
    letter-spacing: 0.02em;
-}
-
-.authnav {
-      color: var(--primary-text-color);
 }
 
 .authnav:hover,
@@ -145,7 +137,6 @@ body {
 
 .discriptions {
       color: var(--primary-text-color);
-      line-height: 1.5;
       letter-spacing: 0.02em;
 }
 
@@ -157,5 +148,5 @@ body {
 
 .footer-content {
    color: var(--footer-text-color);
-      
+   letter-spacing: 0.02em
 }
