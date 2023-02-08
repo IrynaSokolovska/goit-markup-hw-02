@@ -46,16 +46,16 @@ body {
    text-transform: uppercase;
 }
 
-.sitenav a{
+.sitenav {
     color: var(--section-title-color);
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.sitenav .link:hover, 
-.sitenav .link:focus {
+.sitenav:hover, 
+.sitenav:focus {
    color: var(--accent-color);
 }
-.sitenav .link.current {
+.sitenav.current {
    color: var(--button-nav-color);
 }
 
@@ -69,13 +69,12 @@ body {
    letter-spacing: 0.02em;
 }
 
-.authnav .link {
-   font-style: normal;
-   color: var(--primary-text-color);
+.authnav {
+      color: var(--primary-text-color);
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.authnav:hover,
+.authnav:focus {
    color: var(--accent-color);
 }
 
