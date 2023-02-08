@@ -1,4 +1,4 @@
-:root{
+:root {
    --primary-text-color: #434455;
    --section-title-color: #2E2F42;
    --accent-color: #4D5AE5;
@@ -20,7 +20,7 @@ body {
    list-style: none;
 }
 
-.link{
+.link {
    text-decoration: none;
 }
 /* Heder */
@@ -33,10 +33,10 @@ body {
    letter-spacing: 0.03em;
    text-transform: uppercase;
 }
-.secondpart-logo{
+.secondpart-logo {
    color: var(--section-title-color);
 }
-.light-logo{
+.light-logo {
    color: var(--light-logo-color);
    font-family: 'Raleway';
    font-weight: 800;
@@ -46,20 +46,20 @@ body {
    text-transform: uppercase;
 }
 
-.site-nav a{
-   color: var(--section-title-color);
+.sitenav a{
+    color: var(--section-title-color);
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.site-nav .link:hover, 
-.site-nav .link:focus {
+.sitenav .link:hover, 
+.sitenav .link:focus {
    color: var(--accent-color);
 }
-.site-nav .link.current {
+.sitenav .link.current {
    color: var(--button-nav-color);
 }
 
-.auth-nav {
+.authnav {
    color: var(--section-title-color);
    font-family: 'Roboto';
    font-style: normal;
@@ -69,7 +69,7 @@ body {
    letter-spacing: 0.02em;
 }
 
-.auth-nav .link {
+.authnav .link {
    font-style: normal;
    color: var(--primary-text-color);
 }
@@ -81,27 +81,27 @@ body {
 
 
 /* Hero */
-.hero{
+.hero {
    background-color: var(--section-title-color);
 }
 
-.hero-title{
+.hero-title {
    color:var(--primary-white-color);
-   font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
-    text-align: center;
+   text-align: center;
    
       
 }
-.section-title{
+.section-title {
    color: var(--section-title-color);
    font-size: 36px;
    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+   letter-spacing: 0.02em;
 }
-.section-subtitle{
+.section-subtitle {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -109,7 +109,7 @@ body {
 }
 
 /* button */
-.button-filters {
+.button-projects {
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
    font-size: 16px;
@@ -122,13 +122,13 @@ body {
    cursor: pointer;
 }
 
-.button-filters:hover {
+.button-projects:hover {
    color: var(--primary-white-color);
    background-color: var(--button-nav-color);
 }
 
 
-.button-hero{
+.button-hero {
    color: var(--primary-white-color);
    background-color: var(--accent-color); 
    font-family: 'Roboto', sans-serif;
@@ -145,21 +145,19 @@ body {
    background-color: var(--button-nav-color);
 }
 
-.card-content{
+.discriptions {
       color: var(--primary-text-color);
-      font-weight: 400;
-      font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
 }
 
 
 /* footer */
-.page-footer{
+.page-footer {
    background-color: var(--section-title-color);
 }
 
-.footer-content{
+.footer-content {
    color: var(--footer-text-color);
       
 }
